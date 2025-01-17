@@ -8,8 +8,8 @@ const CONFIG = {
     role: "software developer",
     bio: "I ❤️ open source.",
     email: "ajshedivyaj@gmail.com",
-    linkedin: "https://www.linkedin.com/in/adam-shedivy-2619a1166/",
-    github: "https://github.com/ajshedivy",
+    linkedin: "adam-shedivy-2619a1166",
+    github: "ajshedivy",
     instagram: "",
   },
   projects: [
