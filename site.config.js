@@ -1,3 +1,5 @@
+const { hkdf } = require("crypto")
+
 const CONFIG = {
   // profile setting (required)
   profile: {
@@ -15,6 +17,10 @@ const CONFIG = {
       name: `Mapepire`,
       href: "https://mapepire-ibmi.github.io/",
     },
+    {
+      name: `Db2 for i Extension for VSCode`,
+      href: "https://github.com/codefori/vscode-db2i"
+    },
   ],
   // blog setting (required)
   blog: {
@@ -24,8 +30,8 @@ const CONFIG = {
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
+  link: "https://adamshedivy-blog.vercel.app/",
+  since: 2025, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
